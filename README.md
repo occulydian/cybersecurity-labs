@@ -4,4 +4,4 @@
 - Ubuntu Splunk server
 - Windows client with Sysmon + Forwarder
 - Kali Linux attacker
-- Host-only network (192.168.56.0/24)
+- Host-only network (192.168.56.1/24)
