@@ -8,7 +8,7 @@ This repository contains hands-on cybersecurity labs focused on SOC analysis, lo
 ### Network
 - Host-only network (192.168.56.0/24)
 
-###Systems
+### Systems
 - Ubuntu Splunk server, log analysis (192.168.56.10/24)
 - Windows client with Sysmon + Forwarder, log source (192.168.56.20/24)
 - Kali Linux, attack simulation (192.168.56.30/24)
