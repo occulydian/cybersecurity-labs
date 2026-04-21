@@ -76,7 +76,7 @@ index=main EventCode=4625
 - EventCode 4625 -> Failed login attempt
 - Source_Network_Address -> Origin of authentication attempt
 - Account_Name -> Target user account
-- _time -> Timestamp used to correlate activity
+- _time -> Timestamp used to correlate authentication activity
 
 ---
 
@@ -93,8 +93,8 @@ index=main EventCode=4625
 
 - Approximately ten failed login attempts were generated during testing
 - Eight failed login attempts were observed from a single source IP (192.168.56.30), corresponding to the Kali machine
-- The frequency and clustering of the detected events indicated brute-force behavior
-- Two local login attempts that originated locally (127.0.0.1) were also present but at a lower frequency and clustering, consistent with normal behavior
+- The frequency and clustering of the detected events were consistent with brute-force behavior
+- Two login attempts that originated locally (127.0.0.1) were also present but at a lower frequency and clustering, consistent with normal behavior
 - Aggregation by source IP and username helped distinguish attacker activity from normal user behavior
 
 ---
@@ -114,3 +114,6 @@ index=main EventCode=4625
 - Differentiated between malicious and benign authentication failures based on frequency, source, and clustering
 - Installed and enabled the Splunk Sysmon add-on to parse Sysmon logs into structured fields
 - Established a repeatable workflow for analyzing authentication events in Splunk
+
+### Next Steps
+- Further investigation could include correlating failed logins (4625) with successful logins (4624) to identify potential compromise
