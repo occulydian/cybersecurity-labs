@@ -127,10 +127,10 @@ index=main EventID=3
 
 ## Screenshots
 
-![EventID 3 Events Detected](EventID_3.png)
-![Kali nmap Scan](Kali_nmap.png)
-![Repeated Connections Detected](repeated_connections.png)
-![Target System Identified](target_system_identification.png)
+![EventID 3 Events Detected](images/EventID_3.png)
+![Kali nmap Scan](images/Kali_nmap.png)
+![Repeated Connections Detected](images/repeated_connections.png)
+![Target System Identified](images/target_system_identification.png)
 
 ---
 
