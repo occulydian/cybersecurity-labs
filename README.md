@@ -45,3 +45,7 @@ Detection of port scanning activity using Sysmon and Splunk
 - Security event analysis
 - Basic threat detection (brute-force attacks)
 - Lab environment setup and documentation
+- Identifying patterns indicative of malicious behavior
+- Simulated attack scenarios (nmap reconnaissance)
+- Detection development using aggregation and filtering
+- Network traffic analysis (Sysmon Event ID 3)
