@@ -27,10 +27,14 @@ Detect brute-force login attempts using Windows Event Logs (Event ID 4625)
 
 [View Lab](.splunk-failed-logins-lab)
 
+[Sample Failed Login Detection](splunk-failed-logins-lab/images/failed_login_result.png)
+
 ### Sysmon Network Analysis
 Detection of port scanning activity using Sysmon and Splunk
 
 [View Lab](.sysmon-network-analysis)
+
+[Sample Network Analysis](sysmon-network-analysis/images/EventID_3.png)
 
 ---
 
