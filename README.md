@@ -31,6 +31,7 @@ Detect brute-force login attempts using Windows Event Logs (Event ID 4625)
 Detection of port scanning activity using Sysmon and Splunk
 
 [View Lab](.sysmon-network-analysis)
+
 ---
 
 ## Skills Demonstrated
