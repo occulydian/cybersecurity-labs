@@ -13,6 +13,11 @@ This repository contains hands-on cybersecurity labs focused on SOC analysis, lo
 - Windows client with Sysmon + Forwarder, log source (192.168.56.20/24)
 - Kali Linux, attack simulation (192.168.56.30/24)
 
+### Tool Used
+- Splunk Enterprise
+- Sysmon
+- VirtualBox
+
 ---
 
 ## Completed Labs
@@ -22,6 +27,10 @@ Detect brute-force login attempts using Windows Event Logs (Event ID 4625)
 
 [View Lab](.splunk-failed-logins-lab)
 
+### Sysmon Network Analysis
+Detection of port scanning activity using Sysmon and Splunk
+
+[View Lab](.sysmon-network-analysis)
 ---
 
 ## Skills Demonstrated
@@ -31,9 +40,3 @@ Detect brute-force login attempts using Windows Event Logs (Event ID 4625)
 - Security event analysis
 - Basic threat detection (brute-force attacks)
 - Lab environment setup and documentation
-
----
-
-## In Progress
-
-- Sysmon Network Analysis Lab
