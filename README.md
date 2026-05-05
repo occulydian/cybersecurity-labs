@@ -35,7 +35,7 @@ Detects port scanning activity using Sysmon Event ID 3 and Splunk
 
 [View Lab](./sysmon-network-analysis-lab)
 
-![Sample Network Analysis](sysmon-network-analysis-lab/images/EventID_3.png)
+![Sample Network Analysis](sysmon-network-analysis-lab/images/EventID 3.png)
 
 ### PowerShell Process Investigation
 Detects suspicious PowerShell execution using Sysmon Event ID 1 and command-line analysis
