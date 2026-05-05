@@ -1,19 +1,20 @@
 # Cybersecurity Labs
 
-This repository contains hands-on cybersecurity labs focused on SOC analysis, log investigation, and incident detection
+This repository demonstrates hands-on cybersecurity skills through simulated attack scenarios and log-based detection using Splunk and Sysmon.
 
 ## Lab Environment
+- Custom-built virtual lab environment for controlled attack simulation and log analysis
 - VirtualBox-based lab environment
 
 ### Network
 - Host-only network (192.168.56.0/24)
 
 ### Systems
-- Ubuntu Splunk server, log analysis (192.168.56.10/24)
-- Windows client with Sysmon + Forwarder, log source (192.168.56.20/24)
-- Kali Linux, attack simulation (192.168.56.30/24)
+- Ubuntu Splunk server (log analysis platform) - 192.168.56.10
+- Windows client with Sysmon + Forwarder (log source) - 192.168.56.20
+- Kali Linux (attack simulation) - 192.168.56.30
 
-### Tool Used
+### Tools Used
 - Splunk Enterprise
 - Sysmon
 - VirtualBox
@@ -22,30 +23,36 @@ This repository contains hands-on cybersecurity labs focused on SOC analysis, lo
 
 ## Completed Labs
 
-### Splunk Failed Login Detection Lab
-Detect brute-force login attempts using Windows Event Logs (Event ID 4625)
+### Splunk Failed Login Detection
+Detects brute-force login attempts using Windows Event Logs (Event ID 4625)
 
-[View Lab](.splunk-failed-logins-lab)
+[View Lab](./splunk-failed-logins-lab)
 
 ![Sample Failed Login Detection](splunk-failed-logins-lab/images/failed_login_result.png)
 
 ### Sysmon Network Analysis
-Detection of port scanning activity using Sysmon and Splunk
+Detects port scanning activity using Sysmon Event ID 3 and Splunk
 
-[View Lab](.sysmon-network-analysis)
+[View Lab](./sysmon-network-analysis-lab)
 
-![Sample Network Analysis](sysmon-network-analysis/images/EventID_3.png)
+![Sample Network Analysis](sysmon-network-analysis-lab/images/EventID_3.png)
+
+### PowerShell Process Investigation
+Detects suspicious PowerShell execution using Sysmon Event ID 1 and command-line analysis
+
+[View Lab](./powershell-process-investigation-lab)
+
+![Sample Process Investigation](powershell-process-investigation-lab/images/compiled-events.png)
 
 ---
 
 ## Skills Demonstrated
 
 - Log ingestion and normalization (Splunk, Sysmon)
-- SPL query writing
-- Security event analysis
-- Basic threat detection (brute-force attacks)
-- Lab environment setup and documentation
+- SPL query development
 - Identifying patterns indicative of malicious behavior
-- Simulated attack scenarios (nmap reconnaissance)
+- Simulated attack scenarios (nmap reconnaissance, PowerShell abuse)
 - Detection development using aggregation and filtering
-- Network traffic analysis (Sysmon Event ID 3)
+- Process and network traffic analysis (Sysmon Event IDs 1 and 3)
+- Detection of common attack techniques (brute-force, reconnaissance, obfuscation)
+- Lab environment setup and documentation

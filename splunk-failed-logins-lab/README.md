@@ -99,14 +99,6 @@ index=main EventCode=4625
 
 ---
 
-## Screenshots
-
-![Failed login Query](images/failed_login_result.png)
-![Brute-Force Detection: Failed Login Attempts by Source IP and Account](images/failed_logins_by_source_ip.png)
-![Brute-Force Detection: Failed Login Attempts by Time](images/failed_logins_by_time.png)
-
----
-
 ## Key Takeaways
 
 - Demonstrated the ability to ingest and analyze Windows Security logs in Splunk
@@ -117,3 +109,11 @@ index=main EventCode=4625
 
 ### Next Steps
 - Further investigation could include correlating failed logins (4625) with successful logins (4624) to identify potential compromise
+
+---
+
+## Screenshots
+
+![Failed login Query](images/failed_login_result.png)
+![Brute-Force Detection: Failed Login Attempts by Source IP and Account](images/failed_logins_by_source_ip.png)
+![Brute-Force Detection: Failed Login Attempts by Time](images/failed_logins_by_time.png)
