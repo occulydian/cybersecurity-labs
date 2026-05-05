@@ -129,10 +129,10 @@ index=main EventID=1 Image="*powershell.exe"
 
 ## Screenshots
 
-![Live Data Ingestion in Splunk](live-data-ingestion.png)
-![Event ID 1 Output in Windows Host](eventID1-output.png)
-![Event ID 1 in Splunk](eventID1-splunk.png)
-![Identification of Unusual PowerShell Usage](powershell-usage-identification.png)
-![Identification of Parent-Child Processes](parent-child-identification.png)
-![Identification of Encoded Command Arguments](encoded-command-identification.png)
-![Compiled Suspicious Events in Splunk](compiled-events.png)
+![Live Data Ingestion in Splunk](images/live-data-ingestion.png)
+![Event ID 1 Output in Windows Host](images/eventID1-output.png)
+![Event ID 1 in Splunk](images/eventID1-splunk.png)
+![Identification of Unusual PowerShell Usage](images/powershell-usage-identification.png)
+![Identification of Parent-Child Processes](images/parent-child-identification.png)
+![Identification of Encoded Command Arguments](images/encoded-command-identification.png)
+![Compiled Suspicious Events in Splunk](images/compiled-events.png)
