@@ -14,7 +14,7 @@
 ## Environment
 
 ### Client System
-- Windows 11 Client (WINDOWS_LAB)
+- Windows 11 Client
 
 
 ### Platform
