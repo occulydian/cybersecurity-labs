@@ -1,6 +1,6 @@
 # Cybersecurity Labs
 
-This repository demonstrates hands-on cybersecurity skills through simulated attack scenarios and log-based detection using Splunk and Sysmon.
+This repository demonstrates hands-on cybersecurity skills through security monitoring, log analysis, identity and access management (IAM), and simulated attack scenarios using industry-standard tools and platforms.
 
 ## Lab Environment
 - Custom-built virtual lab environment for controlled attack simulation and log analysis
@@ -17,6 +17,7 @@ This repository demonstrates hands-on cybersecurity skills through simulated att
 ### Tools Used
 - Splunk Enterprise
 - Sysmon
+- Microsoft Entra ID
 - VirtualBox
 
 ---
@@ -44,10 +45,18 @@ Detects suspicious PowerShell execution using Sysmon Event ID 1 and command-line
 
 ![Sample Process Investigation](powershell-process-investigation-lab/images/compiled-events.png)
 
+### Microsoft Entra ID Identity
+Demonstrates user provisioning, RBAC, MFA, and audit logging in Microsoft Entra ID
+
+[View Lab](./entra-id-identity-lab)
+
+![Sample Entra Sign-In Log](entra-id-identity-lab/images/sign-in-log.png)
+
 ---
 
 ## Skills Demonstrated
 
+### Security Monitoring and Detection
 - Log ingestion and normalization (Splunk, Sysmon)
 - SPL query development
 - Identifying patterns indicative of malicious behavior
@@ -55,4 +64,17 @@ Detects suspicious PowerShell execution using Sysmon Event ID 1 and command-line
 - Detection development using aggregation and filtering
 - Process and network traffic analysis (Sysmon Event IDs 1 and 3)
 - Detection of common attack techniques (brute-force, reconnaissance, obfuscation)
-- Lab environment setup and documentation
+
+### Identity and Access Management (IAM)
+- User provisioning and account management
+- Security group administration
+- Role-based access control (RBAC)
+- Least-privilege access principles
+- Multi-factor authentication (MFA) implementation
+- Microsoft Entra sign-in and audit log review
+- Authentication and access control monitoring
+
+### Lab Development
+- Virtual lab design and administration
+- Security testing and validation
+- Technical documentation and reporting
